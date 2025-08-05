@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightblue;
+}
+
+p {
+    text-align: justify;
+    color: rgb(232, 149, 203);
+    line-height: 1.6;
+}
+
+h1 {
+    text-align: left;
+    color: magenta;
+}
+
+h2 {
+    text-align: right;
+    color: green;
+}
+
+
+/*ler seletor de trás pra frente:
+    quero um paragrafo que está dentro de um elemento: container-html
+    !container-html é uma classe criada no arquivo do html para justamente separar do padrão
+*/
+
+.container-html p{
+    color: darkgoldenrod;
+}
+
+.container-css p{
+    color: darkmagenta;
+}
+

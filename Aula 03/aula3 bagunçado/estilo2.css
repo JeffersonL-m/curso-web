@@ -1,0 +1,34 @@
+/* Isso é um arquivo css para ser usado de modo externo, através do <link> no <head> para já configurar o estilo dos testos*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: aqua;
+}
+
+h1 {
+    text-align: center;
+    color: darkblue;
+}
+
+h1 {
+    color: darkgoldenrod
+}
+
+p   {
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.paragrafo-html{
+    color: orange;
+}
+
+.paragrafo-css{
+    color: rgb(8, 83, 169);
+}
+
+
+/*Seletor universal, ele é o último a ser considerado em peso de especificação*/
+* {
+    margin: 0;
+}

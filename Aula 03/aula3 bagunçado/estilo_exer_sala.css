@@ -1,0 +1,68 @@
+/*Tem que fazer um reset básico*/
+
+/* seletor universal pra isso*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f4f4;
+    color: #333;
+}
+
+/*rolagem lateral é um problema mas o limite do pixel é 600, depois disso ultrapassa a tela*/
+
+
+.container {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    border-bottom: 2px solid #ccc;
+    padding: 5px;
+}
+
+h3 {
+    margin: 20px 0 10px;
+}
+
+p {
+    line-height: 1.6;
+    text-align: justify;
+    margin-bottom: 15px;
+}
+
+button {
+    background: #1a73e8;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 10px;
+    /*por padrão não aceita o pointer mesmo isso sendo um literal botão*/
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #245ba3;
+
+}
+
+a {
+    text-decoration: none;
+    
+}
+
+hr {
+    margin: 30px 0;
+}
