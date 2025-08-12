@@ -1,0 +1,79 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  background-color: #1a73e8;
+}
+
+section {
+  height: 400px;
+  padding: 20px;
+  color: #fff;
+  background-color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 15px;
+  color: #ddd;
+  background-color: #222;
+}
+
+.divisao {
+  height: 200px;
+  background-color: #222;
+}
+
+/*por ser uma section, tem que usar o #, qual a diferença de uma section pra um container?*/
+
+#bg-imagem {
+  background-image: url(./imagens/bg-1.jpg);
+  /*a imagem bg-1. jpg é menor que a box de fundo*/
+  background-repeat: no-repeat;
+  /*agora ficou só uma imagem, feio, já que o resto da box ta vazia*/
+  background-position: center;
+
+  background-size: contain;
+  /*nesa configuração vai tentar expandir a imagem para preencher toda a box SEM CORTAR*/
+  
+  background-size: cover;
+  /*o cover é a melhor opção já que não deixa arestas*/
+}
+
+
+#bg-parallax {
+  background-image: url(./imagens/bg-2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  /*parallax = a imagem fica fixa mas a página desce*/
+
+}
+
+#bg-gradiente{
+  /*gradiente = degrade*/
+  background-image: linear-gradient(276deg, #2A7B9B, #57C785, #fff);
+
+  /*recebe 3 valores, 1: qual direção? cima pra baixo, direita pra esquerda?, quais cores usar e graus (logo no começo ao invés do to right)*/
+
+}
+
+#bg-shorthand {
+  background: #111 url(./imagens/bg-3.jpg) center center / cover no-repeat scroll;
+  /*nessa propriedade ela resume todas as propriedades seguindo:
+    1- cor
+    2 - imagem
+    3 - position
+    4 - size, tem que colocar barra antes
+    5 - no-repeat
+    6 - attachment, attachment é se é scroll ou parallax, scroll: padrão, parallax: fica fixo
+    
+    */
+
+}

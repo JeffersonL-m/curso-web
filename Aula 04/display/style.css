@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: #3a5289;
+  color: white;
+  margin-bottom: 20px;
+}
+
+#container {
+  max-width: 600px;
+  padding: 10px 15px;
+  margin: 0 auto;
+  background-color: #7294e3;
+  border-radius: 10px;
+}
+
+#container > div {
+  background-color: #4c5baf;
+  border-radius: 8px;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  color: white;
+  text-align: center;
+  line-height: 100px;
+
+  width: 100px;
+
+  display: inline-block;
+  width: 100px;
+  height: 150px;
+
+  /*por padrão ocupa toda a largura disponivel, display = block*/
+  /*display: inline ocupa somente o texto, não permite nem altura e largura ser modificada*/
+  /*display: inline-block, cada elemento possa estar na mesma linha mas com largura e altura modificada*/
+}
+
+
+.display{
+  display: none;
+  /*remove o elemento da tela e tira as dimensões*/
+}
+
+.hidden{
+  visibility: hidden;
+}
+
+/*a diferença entre display e invisivel é que invisivel fica um vão no meio, e com display none realmente aquela seção desaparece*/
+

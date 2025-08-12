@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Centralizar</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    #container {
+      width: 100vw;
+      height: 100vh;
+      background-color: #ccc;
+
+      position: relative;
+    }
+
+    #container > div {
+      width: 150px;
+      height: 150px;
+      border: 1px solid darkblue;
+      background-color: blue;
+
+      position: absolute;
+
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      /*recebe 2 propriedades: quanto vai mover no eixo x e no eixo y, usa o transform já que terá elementos em que não saberemos as suas medidas absolutas*/
+    }
+    
+  </style>
+</head>
+<body>
+  <div id="container">
+    <div></div>
+  </div>
+</body>
+</html>
