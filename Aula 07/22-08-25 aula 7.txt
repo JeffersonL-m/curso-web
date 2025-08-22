@@ -1,0 +1,51 @@
+FLEX BOX: CENTRALIZA DIVS DE FORMA MAIS FÁCIL
+
+flex box: 4 conceitos
+resumo: usa a felxbox para mudar as dimensões conforme o display da página
+
+container flexivel
+
+itens flexivel
+
+direção
+
+eixos
+
+parte1:
+
+2 nivel de elementos: container flex (elemento que guarda os elementos filhos para alinhar)
+	display flex: display none (some, display box [toda], display line [ só a necessaria]
+
+itens flex: filhos diretos [netos n contam]
+	pode ser controlado de forma individual
+
+-----------------------
+Direções: cima pra baixo, lado pro outro 2 eixos: X e Y
+1 Flexbox organiza a partir pelo de dois eixos, 1: main axis [o padrão do eixo]
+Como define o eixo principal: FLEX-DIRECTION = X ou Y
+
+
+2 eixo cruzado: 90 graus (cross axis)
+
+sempre define o eixo principal e dps o eixo cruzado é definido automaticamente
+
+Flex direciton:
+
+row: horizontal
+row> da esquerda pra direita
+row-reverse> da direita para a esquerda
+
+column: vertical
+colum> de cima para baixo
+colum-reverse> de baixo para cima
+
+-----
+por padrão os elementos vão ser alinhados em relação ai eixo principal tentando colocar em uma só linha(x) ou coluna (y)
+
+flex-wrap: ajusta esse overflow
+
+padrão: nowrap: permite o estouro dos elementos
+
+flex-flow (2 propriedades)
+justify-content: alinhamento do eixo principal
+align-items: alinhamento do eixo cruzado (conforme o principal)
