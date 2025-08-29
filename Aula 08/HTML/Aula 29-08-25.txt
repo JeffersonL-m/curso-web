@@ -1,0 +1,23 @@
+Aula 29-08-2025
+
+Animações desnecessárias:
+javascritp - animação só pela primeira vez
+
+css: responsivo 1 consulta de milha
+desktop, tablet e celular 1 coisa
+
+*disco de midia - faz o tipo de dispositivo usado no acesso ao site
+
+menu mobile: navegação sumir e botão desaparecer
+
+flex box não define no quesito da navegação desktop x mobile
+ai usa o position relative e absolute
+
+classe show: display none pra display flex
+
+
+javascript: abordagem pratica
+coloca sempre no final pq é mt pesado
+javscript tal qual css tem interno, inline e externo
+
+- várias coisas mas n cheguei a ver a animação
