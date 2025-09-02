@@ -1,0 +1,15 @@
+body {
+    background-color: aliceblue;
+}
+
+/*uma box model é quando utilizamos as propriedades width e height, é o espaçamento daquele elemento que ocupa, tipo cada elemento, em tag, todo
+elemento ocupa um espaço mas quando utilizamos width e height nós delimitamos exatamente como vai ser a dimensão dele, tipo, um paragrafo é
+um elemento e ele ocupa um espaço, mas um container (div) contendo os paragrafos e todos os elementos vai acabar sendo um outro elemento mas enfim
+width e height torna divs em box, e é nela onde colocaremos as informações e vai ficar o principal foco do html: centralização
+na aula 07 sobre flex box essa parte de centralização é feita de maneira + rápida e fácil*/
+
+.box {
+    width: 400px;
+    height: 400px;
+    background-color: rgb(202, 182, 156);
+}

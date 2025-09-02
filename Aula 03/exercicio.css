@@ -1,0 +1,61 @@
+header {
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(222, 237, 255);
+
+    width: 550px;
+
+    border: 3.5px;
+    border-style: solid;
+    border-color: rgb(127, 137, 247);
+    border-radius: 10px;
+
+    padding: 7.5px 15px;
+    /*eixo Y e X*/
+    
+    margin-top: 10px;
+}
+
+.noticia {
+    box-sizing: border-box;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(255, 255, 255);
+
+    width: 550px;
+   
+    border: 3.5px;
+    border-style: solid;
+    border-color: rgb(220, 221, 224);
+    border-radius: 10px;
+
+    padding: 7.5px 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    
+}
+
+.noticia h2{
+    margin-bottom: 10px;
+}
+
+.noticia p{
+    margin-top: 0;
+}
+
+footer {
+    box-sizing: border-box;
+    background-color: rgb(238, 238, 238);
+    
+    width: 550px;
+    padding-top: 7.5px;
+    padding-bottom: 7.5px;
+
+    border-top: 2.5px solid rgb(189, 189, 189);
+    
+    
+    text-align: center;
+}
+

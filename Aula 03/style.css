@@ -1,0 +1,27 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkmagenta;
+}
+
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: blueviolet;
+    font-size: 50px;
+}
+
+.container2 {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(31, 204, 147);
+    font-size: 18px;
+}
+
+
+
+.container2 h2 {
+    /*estou configurando espcificadamente o container2 e não toda body, especificadamente de novo a tag h2*/
+    color: brown;
+}
+
+#divh2 {
+    color: rgb(255, 44, 248);
+}
