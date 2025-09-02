@@ -1,0 +1,17 @@
+Formulários:
+
+get e etc: tem que usar o https (s é de criptografia) se n toda informação ficaria acessível ao inspecionar o site
+
+Por padrão é o get
+
+tem muitas coisas sobre formulario:
+
+cria tag formulario, vai ter label e inputs
+inputs depende doq vc vai fazer
+
+e botão enviar: sempre vai recarregar a pagina (em javascript dá pra impedir)
+
+Input de lista:
+escolha o curso que quer fazer: aparece uma lista de cursos
+
+Categoria: agrupa em grupos os valores do select
